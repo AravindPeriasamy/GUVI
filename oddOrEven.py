@@ -5,4 +5,4 @@ if number >= 0:
 	else:
 		print("Odd")
 else:
-	print("Invalid")
+	print("invalid")
