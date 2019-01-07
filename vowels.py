@@ -1,6 +1,9 @@
 character = input()
 vowels = ['a','e','i','o','u']
-if character.lower() in vowels:
-	print("Vowel")
+if character.isalpha():
+	if character.lower() in vowels:
+		print("Vowel")
+	else:
+		print("Consonant")
 else:
-	print("Consonant")
+	print("invalid")
