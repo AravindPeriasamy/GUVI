@@ -7,7 +7,7 @@ while (p * p <= end):
         for i in range(p * p, end+1, p): 
             prime[i] = False
     p += 1
-for p in range(start, end): 
+for p in range(start, end+1): 
         if prime[p]: 
             count+=1
 print(count)
