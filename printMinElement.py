@@ -1,3 +1,3 @@
 n= int(input())
-list = list(map(int,input.split(" ")))
+list = list(map(int,input().split(" ")))
 print(min(list))
