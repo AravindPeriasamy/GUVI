@@ -1,3 +1,3 @@
 n= int(input())
-list = list(map(int,input.split(" ")))
-print(max(list))
+list1 = list(map(int,input.split(" ")))
+print(max(list1))
