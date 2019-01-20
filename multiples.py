@@ -1,3 +1,5 @@
 n = int(input())
+list1 = []
 for i in range(1,6):
-	print(i*n,end='\t')
+	list1.append(i*n)
+print(*list1)
