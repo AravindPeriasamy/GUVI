@@ -1,4 +1,5 @@
 start, end = map(int,input().split(" "))
+list1 = []
 for n in range(start,end):
 	sum = 0
 	number = n
@@ -7,4 +8,5 @@ for n in range(start,end):
 		sum = sum +( rem*rem*rem )
 		n = n// 10
 	if number == sum:
-		print(sum, end='\t')
+		list1.append(sum)
+print(*list1)
