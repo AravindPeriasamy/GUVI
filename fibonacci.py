@@ -7,5 +7,5 @@ for i in range(2,n+1):
 	c=a+b
 	a=b
 	b=c
-  list1.append(c)
-print(*c)
+	list1.append(c)
+print(*list1)
