@@ -1,6 +1,7 @@
 n = int(input())
 success = True
 string = ""
+final = ""
 list1 = [input() for e in range(n)]
 minimum = min(list1, key = len)
 for i in range(0,len(minimum)):
@@ -10,4 +11,6 @@ for i in range(0,len(minimum)):
 			success = False
 	if success == False:
 		break
-print(string)
+	else:
+		final += minimum[i]
+print(final)
