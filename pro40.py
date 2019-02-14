@@ -10,4 +10,3 @@ for i in count:
 		break
 else:
 	print("yes")
-print(count)
