@@ -1,0 +1,5 @@
+a = int(input())
+list1 = list(map(str,input().split(" ")))
+list1.reverse()
+x = "->".join(list1)
+print(x)
