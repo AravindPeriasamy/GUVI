@@ -8,4 +8,4 @@ for i in range(1,len(list1)):
 	if list1[i]>list1[i-1]:
 		increment += 1
 	candies += increment
-print(candies)
+print(int(candies))
