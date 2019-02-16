@@ -1,4 +1,4 @@
-a = int(input())
+b = int(input())
 list1 = [int(i) for i in input().split()]
 list1.sort()
 increment = 1
