@@ -1,7 +1,9 @@
 def printing(outlist,x):
+	out = ""
 	for i in range(x):
-		print(outlist[i],end="")
-	print()
+		#print(outlist[i],end="")
+		out +=str(outlist[i])
+	print(out)
 def combinations(x,outlist,counter):
 	if counter == x:
 		printing(outlist,x)
