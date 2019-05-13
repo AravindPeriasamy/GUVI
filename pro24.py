@@ -1,9 +1,10 @@
 def printing(outlist,x):
 	out = ""
+	global output
 	for i in range(x):
 		#print(outlist[i],end="")
 		out +=str(outlist[i])
-	print(out,end="\n")
+	output.append(out)
 def combinations(x,outlist,counter):
 	if counter == x:
 		printing(outlist,x)
@@ -14,4 +15,7 @@ def combinations(x,outlist,counter):
 	combinations(x,outlist,counter+1)
 x = int(input())
 outlist = [None]*x
+output =[]
 combinations(x,outlist,0)
+for i in output:
+	print(i)
