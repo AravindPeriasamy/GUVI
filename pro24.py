@@ -17,5 +17,5 @@ x = int(input())
 outlist = [None]*x
 output =[]
 combinations(x,outlist,0)
-for i in output:
-	print(i)
+for j in output:
+	print(j)
