@@ -3,7 +3,7 @@ def printing(outlist,x):
 	for i in range(x):
 		#print(outlist[i],end="")
 		out +=str(outlist[i])
-	print(out)
+	print(out,end="\n")
 def combinations(x,outlist,counter):
 	if counter == x:
 		printing(outlist,x)
