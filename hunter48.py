@@ -1,4 +1,4 @@
 x = input()
 y = input()
-z = x.find(y)
+z = int(x.find(y))
 print(z)
