@@ -11,5 +11,5 @@ for i in range((len(y)-1)):
 				length = len(y[i:j+1])
 				maxx = i
 				maxy = j
-answer = y[maxx:maxy+1]
-print(answer)
+ans = y[maxx:maxy+1]
+print(ans)
