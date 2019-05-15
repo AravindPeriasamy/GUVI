@@ -17,5 +17,5 @@ while i<len(x)-1:
 	else:
 		output += x[i]
 		i += 1
-out = output.strip()
-print(out)
+outx = output.strip()
+print(outx)
