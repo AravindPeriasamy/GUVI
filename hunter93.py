@@ -5,9 +5,10 @@ for i in list1:
 	i.split()
 	string = ""
 	for j in range(0,len(i)):
-		if j%2 == 0:
+		if count%2 == 0:
 			string += i[j].upper()
 		else:
 			string += i[j]
+		count +=1
 	outlist.append(string)
 print(*outlist)
