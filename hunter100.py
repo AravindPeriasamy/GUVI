@@ -4,6 +4,7 @@ prime = [True for i in range(end+1)]
 p = 2
 out = []
 outlist = []
+code = 0
 while (p * p <= end): 
     if (prime[p] == True): 
         for i in range(p * p, end+1, p): 
@@ -17,4 +18,8 @@ for i in range(0,(len(outlist)+1)):
 		if outlist[i]+outlist[j] == end:
 			out.append(outlist[i])
 			out.append(outlist[j])
+			code = 1
+			break
+	if code == 1:
+		break
 print(*out)
