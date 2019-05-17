@@ -1,6 +1,7 @@
 x = list(input())
 y = list(input())
 out = ""
+outlist = []
 dif = abs(len(x) - len(y))
 if dif == 0:
 	temp =0
@@ -12,8 +13,9 @@ else:
 		x.append(" ")
 for i in range(len(x)-1):
 	out +=y[i] + x[i]
-	print(out)
-	print("\n")
+	outlist.append(out)
 	out = ""
 out += y[(len(x)-1)] + x[(len(x)-1)]
-print(out)
+outlist.append(out)
+for i in outlist:
+	print(i)
