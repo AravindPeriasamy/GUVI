@@ -6,5 +6,5 @@ for i in range(len(x)-1):
 		if string == string[::-1]:
 			outlist.append(string)
 outlist.sort(key=len)
-for i in outlist:
-	print(i)
+for j in outlist:
+	print(j)
