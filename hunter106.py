@@ -10,7 +10,10 @@ elif len(x) > len(y):
 else:
 	for i in range(dif):
 		x.append(" ")
-for i in range(len(x)):
-	out +=x[i] + y[i]
+for i in range(len(x)-1):
+	out +=y[i] + x[i]
 	print(out)
+	print("\n")
 	out = ""
+out += y[(len(x)-1)] + x[(len(x)-1)]
+print(out)
